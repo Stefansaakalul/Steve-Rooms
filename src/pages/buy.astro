@@ -6,13 +6,13 @@ import Markdown from '../components/Markdown.astro';
 
 // Text Markdown
 const explainer = `
-Our rooms 
+This link should only be accessed when the host sends you this link 
 `;
 ---
 
 <Layout title="Steve Rooms">
   <ContextAlert class="mb-8" />
-  <h1 class="mb-10">Our rooms</h1>
+  <h1 class="mb-10">Pay for your stay</h1>
   <Markdown content={explainer} class="mb-10 text-lg" />
 
   <!-- Stripe Buy Button Script -->
