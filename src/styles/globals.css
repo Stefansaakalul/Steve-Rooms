@@ -2,9 +2,9 @@
 
 @theme {
     --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --color-primary: #FFFFFF;
-    --color-primary-content: #FFFFFF;
-    --color-complementary: #FFFFFF;
+    --color-primary: #006400;
+    --color-primary-content: #006400;
+    --color-complementary: #006400;
     --background-image-noise: linear-gradient(
             to bottom,
             color-mix(in oklab, var(--color-gray-950) 0%, transparent),
